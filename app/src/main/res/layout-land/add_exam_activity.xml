@@ -1,0 +1,161 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.design.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/Toolbar"
+        app:popupTheme="@style/ToolbarPopUp">
+
+        <ImageView
+            android:id="@+id/share"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:src="@drawable/share_icon"
+            android:layout_gravity="right"/>
+
+    </android.support.v7.widget.Toolbar>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginTop="?attr/actionBarSize"
+        android:orientation="vertical"
+        android:background="@color/white"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingTop="20dp">
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_exam_no"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/input_exam_no"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size_fab"
+                android:singleLine="true"
+                android:hint="@string/exam_id" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_exam_title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/input_exam_title"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size_fab"
+                android:singleLine="true"
+                android:hint="@string/exam_title" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_exam_venue"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/input_exam_venue"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size_fab"
+                android:singleLine="true"
+                android:hint="@string/exam_venue" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_exam_date"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/input_exam_date"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size_fab"
+                android:singleLine="true"
+                android:inputType="date"
+                android:hint="@string/exam_date" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_exam_time"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/input_exam_time"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size_fab"
+                android:singleLine="true"
+                android:inputType="time"
+                android:hint="@string/exam_time" />
+        </android.support.design.widget.TextInputLayout>
+
+        <LinearLayout
+            android:id="@+id/layout_radio"
+            android:orientation="horizontal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:paddingTop="@dimen/card_margin">
+
+            <RadioGroup
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <android.support.v7.widget.AppCompatRadioButton
+                    android:id="@+id/radio_taken"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/exam_taken"
+                    style="@style/Topeka.CompoundButton.Radio"
+                    android:background="@color/white"/>
+
+                <android.support.v7.widget.AppCompatRadioButton
+                    android:id="@+id/radio_going"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/exam_going"
+                    style="@style/Topeka.CompoundButton.Radio"
+                    android:background="@color/white"/>
+
+                <android.support.v7.widget.AppCompatRadioButton
+                    android:id="@+id/radio_not_yet"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="@string/exam_not_yet"
+                    style="@style/Topeka.CompoundButton.Radio"
+                    android:background="@color/white"/>
+
+
+            </RadioGroup>
+
+
+        </LinearLayout>
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/commitButton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/layout_radio"
+            android:text="@string/btn_commit"
+            android:textColor="@color/topeka_primary"
+            android:textSize="@dimen/card_margin"
+            android:textStyle="bold"
+            android:layout_gravity="right"
+            android:paddingTop="@dimen/card_margin"
+            style="@style/Widget.AppCompat.Button.Borderless"
+            android:clickable="true"/>
+
+    </LinearLayout>
+
+</android.support.design.widget.CoordinatorLayout>
+
+

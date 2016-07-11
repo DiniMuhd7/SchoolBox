@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="@color/white"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <ImageView
+        android:id="@+id/backdrop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true"
+        android:background="@drawable/schoolbox"
+        android:layout_gravity="center_horizontal"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:paddingLeft="@dimen/dp_twenty"
+        android:paddingRight="@dimen/dp_twenty"
+        android:paddingTop="@dimen/dp_twenty">
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingTop="@dimen/card_margin">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/input_email"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size_fab"
+                android:singleLine="true"
+                android:layout_marginBottom="10dp"
+                android:inputType="textEmailAddress"
+                android:hint="@string/hint_email" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingTop="@dimen/card_margin">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/input_password"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size_fab"
+                android:layout_marginBottom="10dp"
+                android:singleLine="true"
+                android:inputType="textPassword"
+                android:hint="@string/hint_password" />
+        </android.support.design.widget.TextInputLayout>
+
+
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/commitLogin"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_below="@id/input_layout_password"
+            android:layout_marginBottom="@dimen/dp_twenty"
+            android:background="@color/topeka_primary"
+            android:text="@string/btn_login"
+            android:textColor="@color/white"
+            android:textSize="@dimen/card_margin"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            style="@style/Widget.AppCompat.Button"
+            android:clickable="true"/>
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btnLinkRegister"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_below="@id/commitLogin"
+            android:layout_marginBottom="@dimen/dp_twenty"
+            android:background="#90CAF9"
+            android:text="@string/btn_register"
+            android:textColor="@color/white"
+            android:textSize="@dimen/card_margin"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            style="@style/Widget.AppCompat.Button"
+            android:clickable="true"/>
+
+
+    </LinearLayout>
+
+</LinearLayout>
+

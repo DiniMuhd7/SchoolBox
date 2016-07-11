@@ -1,0 +1,309 @@
+<!--
+  ~ Copyright 2015 Google Inc.
+  ~
+  ~ Licensed under the Apache License, Version 2.0 (the "License");
+  ~ you may not use this file except in compliance with the License.
+  ~ You may obtain a copy of the License at
+  ~
+  ~      http://www.apache.org/licenses/LICENSE-2.0
+  ~
+  ~ Unless required by applicable law or agreed to in writing, software
+  ~ distributed under the License is distributed on an "AS IS" BASIS,
+  ~ WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+  ~ See the License for the specific language governing permissions and
+  ~ limitations under the License.
+  -->
+
+<resources xmlns:xliff="http://schemas.android.com/tools">
+    <string name="app_name">SchoolBox</string>
+    <string name="last_initial">Last Initial</string>
+    <string name="first_name">First Name</string>
+    <string name="sign_in">Sign In</string>
+    <string name="nickname">Your Nickname</string>
+    <string name="nick">Nickname</string>
+    <string name="choose_avatar">Choose Your Avatar</string>
+    <string name="an_avatar">An Avatar</string>
+    <string name="player_display_name">%1$s</string>
+    <string name="quiz_of_quizzes">%1$s / %2$s</string>
+    <string name="btn_true">True</string>
+    <string name="btn_false">False</string>
+    <string name="category">Category</string>
+    <string name="sign_out">Sign out</string>
+    <string name="x_points">%1$d pts</string>
+    <string name="back">back</string>
+    <string name="stack_title">Title</string>
+    <string name="stack_script">Body</string>
+    <string name="upload_file">File</string>
+    <string name="search_hint">Search Deencloud</string>
+
+    <string name="reset">Reset</string>
+
+    <string name="app_intro">Intro</string>
+    <string name="intro1_title">Welcome to SchoolBox</string>
+    <string name="intro1_text">A place where you can revise and discover great educational contents all in one single place.</string>
+
+    <string name="intro2_title">Periodic Elements</string>
+    <string name="intro2_text">Dive into the Periodic Elements with just a single tap. All elements are fully organised in explainable manner.</string>
+
+    <string name="intro3_title">Educational Podcast</string>
+    <string name="intro3_text">Listen to Startalk Radio podcast about life in the universe. Stream or Download any available episode.</string>
+
+    <string name="intro4_title">You\'re All Set</string>
+
+    <string name="right_arrow">Forward</string>
+    <string name="left_arrow">Backward</string>
+    <string name="play_arrow">Play</string>
+    <string name="next_arrow"> Next</string>
+
+    <string name="btn_register">REGISTER</string>
+    <string name="btn_login">SIGN IN</string>
+    <string name="btn_logout">LOGOUT</string>
+    <string name="hint_name">Full Name</string>
+    <string name="hint_institution">Institution</string>
+    <string name="hint_email">Email Address</string>
+    <string name="hint_password">Password</string>
+    <string name="hint_mobile">Phone No</string>
+    <string name="hint_location">Location</string>
+
+    <string name="bug">Bug</string>
+    <string name="general">General</string>
+    <string name="enquiry">Enquiry</string>
+
+    <string name="stream">Stream</string>
+    <string name="download">Download</string>
+    <string name="submit">Submit</string>
+    <string name="cancel">Cancel</string>
+    <string name="skip">SKIP</string>
+    <string name="wipe">WIPE</string>
+
+
+    <string name="cos_dialog_feed">Do you have something which you would like to share about SchoolBox or any other Services? This is the right place to let me know. Your enquiry will be much helpful. Thank You.</string>
+    <string name="hello">Hello World</string>
+    <string name="hello_summary">Please show your deep support by creating a new account. It only takes a minute of your time. If you love what i do kindly press the button below. Thank You. </string>
+    <string name="business_summary">Have an interesting idea which you want to share with me? Well, you got the right person. Kindly press the round icon button above. Can\'t wait to hear from you instantly. </string>
+
+    <string name="sign_up_now">SIGN UP</string>
+    <string name="made">Enquiry</string>
+    <string name="deen">©Deenysoft. All Right Reserved</string>
+    <string name="wikipedia">Source: ©Wikipedia 2016</string>
+    <string name="developer">Deen Adam</string>
+    <string name="dev_title">Software Developer</string>
+    <string name="dev_description">Hey, I\'m Deen Adam. I have been involved in a variety of software projects while at school. As an interactive developer, i contributed to a wide range of projects with agencies both big and small.</string>
+
+    <string name="twitter_button">FOLLOW</string>
+    <string name="github_button">GITHUB</string>
+    <string name="credit">Credits</string>
+    <string name="license">License</string>
+    <string name="license_description">Copyright 2016 Deen Adam.\nLicensed under the Apache License, Version 2.0</string>
+    <string name="freepik_title">Freepik Graphics</string>
+    <string name="freepik">Freepik offers users, high quality graphic designs: exclusive illustrations and graphic resources with great content that can be used in both personal and commercial projects.</string>
+
+    <string name="freepik_big">FREEPIK</string>
+    <string name="credit_dev">Paolo Rotolo</string>
+    <string name="credit_lib">AppIntro Library</string>
+    <string name="credit_description">AppIntro is an Android Library that provides a cool material design intro, like the ones in current Google Apps.</string>
+
+    <string name="moreinfo">Sugar plum sugar plum gummies donut jelly powder. </string>
+    <string name="article_detail_more_info">Read More</string>
+    <string name="no_feeds">No Feeds</string>
+    <string name="no_activity">No Activity Yet</string>
+
+    <string name="about_appname">SchoolBox Lite</string>
+    <string name="signature">SchoolBox Lite 1.0.4 (10)</string>
+    <string name="app_version">Version 1.0.4 (10)</string>
+
+
+    <string name="samples_title">Hello title</string>
+    <string name="samples_subhead">Hello Subhead</string>
+    <string name="samples_hint_username">Username</string>
+    <string name="samples_hint_email">E-Mail</string>
+    <string name="settings">Settings</string>
+
+    <string-array name="listArray">
+        <item>Mobile</item>
+        <item>Wireless</item>
+        <item>Hybrid</item>
+    </string-array>
+    <string-array name="listValues">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+    </string-array>
+
+    <string-array name="syncFrequency">
+        <item name="1">Daily</item>
+        <item name="7">Weekly</item>
+        <item name="3">Yearly</item>
+        <item name="0">Never</item>
+    </string-array>
+    <string-array name="syncFrequencyValues">
+        <item name="1">1</item>
+        <item name="7">7</item>
+        <item name="30">30</item>
+        <item name="0">0</item>
+    </string-array>
+
+    <string-array name="setThemeColor">
+        <item name="0">Default Theme</item>
+        <item name="1">Cyan Theme</item>
+        <item name="2">Yellow Theme</item>
+        <item name="3">Green Theme</item>
+    </string-array>
+    <string-array name="setThemeColorValues">
+        <item name="0">0</item>
+        <item name="1">1</item>
+        <item name="2">2</item>
+        <item name="3">3</item>
+    </string-array>
+
+    <string name="navigation_title">SchoolBox</string>
+    <string name="dashboard_title">Dashboard</string>
+    <string name="navigation_quotes">Elementary</string>
+    <string name="navigation_samples">Quizhome</string>
+    <string name="navigation_settings">Startalk</string>
+    <string name="navigation_sub_items">Sub</string>
+    <string name="navigation_dummy_item_1">Settings</string>
+    <string name="navigation_dummy_item_2">Support</string>
+    <string name="navigation_about">About</string>
+    <string name="navigation_community">Community</string>
+    <string name="nav_stack">Stackfeed</string>
+
+    <string name="permission__storage">Write external storage permission is needed to download podcast.</string>
+    <string name="permision_available_camera">Storage Permission has been granted. Storage can now be opened.</string>
+    <string name="permision_available_contacts">Storage Permissions have been granted.</string>
+    <string name="permissions_not_granted">Permissions were not granted.</string>
+    <string name="permission_camera_rationale">Storage permission is needed to show the camera preview.</string>
+    <string name="permission_contacts_rationale">Storage permissions are needed to demonstrate access.</string>
+
+
+    <string name="school_id">School CardNo</string>
+    <string name="school_title">School Name</string>
+    <string name="school_major">Faculty</string>
+    <string name="school_startdate">Joined Date</string>
+    <string name="school_enddate">End Date</string>
+    <string name="current_student">Student</string>
+    <string name="current_staff">Staff</string>
+    <string name="graduated">Graduated</string>
+    <string name="resigned">Resigned</string>
+
+
+    <string name="course_id">Course No</string>
+    <string name="course_title">Course Title</string>
+    <string name="course_instructor">Instructor</string>
+    <string name="course_date">Date</string>
+    <string name="course_time">Time</string>
+    <string name="course_venue">Venue</string>
+    <string name="course_taken">Taken</string>
+    <string name="course_going">Going</string>
+    <string name="course_not_yet">Not Yet</string>
+    <string-array name="course_year">
+        <item name="0">Year 1</item>
+        <item name="1">Year 2</item>
+        <item name="2">Year 3</item>
+    </string-array>
+
+
+    <string name="assign_id">Assignment No</string>
+    <string name="assign_title">Title</string>
+    <string name="assign_duedate">Due Date</string>
+    <string name="assign_subvenue">Submission Venue</string>
+    <string name="assign_submitted">Submitted</string>
+    <string name="assign_not_yet">Not Yet</string>
+
+
+    <string name="quiz_id">Quiz No</string>
+    <string name="quiz_title">Title</string>
+    <string name="quiz_venue">Venue</string>
+    <string name="quiz_date">Date</string>
+    <string name="quiz_time">Time</string>
+    <string name="quiz_taken">Taken</string>
+    <string name="quiz_going">Going</string>
+    <string name="quiz_not_yet">Not Yet</string>
+
+
+    <string name="test_id">Test No</string>
+    <string name="test_title">Title</string>
+    <string name="test_venue">Venue</string>
+    <string name="test_date">Date</string>
+    <string name="test_time">Time</string>
+    <string name="test_taken">Taken</string>
+    <string name="test_going">Going</string>
+    <string name="test_not_yet">Not Yet</string>
+
+    <string name="exam_id">Exam No</string>
+    <string name="exam_title">Title</string>
+    <string name="exam_venue">Venue</string>
+    <string name="exam_date">Date</string>
+    <string name="exam_time">Time</string>
+    <string name="exam_taken">Taken</string>
+    <string name="exam_going">Going</string>
+    <string name="exam_not_yet">Not Yet</string>
+
+
+    <string name="present_id">Presentation No</string>
+    <string name="present_title">Title</string>
+    <string name="present_venue">Venue</string>
+    <string name="present_date">Date</string>
+    <string name="present_time">Time</string>
+    <string name="present_taken">Taken</string>
+    <string name="present_going">Going</string>
+    <string name="present_not_yet">Not Yet</string>
+
+
+    <string name="note_id">Note No</string>
+    <string name="note_title">Title</string>
+    <string name="note_description">Description</string>
+    <string name="note_date">Date</string>
+    <string name="note_time">Time</string>
+
+
+    <string name="menu_school">School</string>
+    <string name="menu_course">Course</string>
+    <string name="menu_quiz">Quiz</string>
+    <string name="menu_test">Test</string>
+    <string name="menu_group">Group</string>
+    <string name="menu_note">Note</string>
+    <string name="menu_exam">Exam</string>
+    <string name="menu_assignment">Assignment</string>
+    <string name="menu_presentation">Presentation</string>
+
+
+
+
+    <string name="btn_back">BACK</string>
+    <string name="btn_commit">SAVE</string>
+    <string name="select">Select</string>
+
+    <string name="cloud">Cloud</string>
+    <string name="cloud_search">Search Cloud</string>
+    <string name="community">Community</string>
+
+    <string name="camera">CAMERA</string>
+    <string name="library">IMPORT</string>
+
+    <string name="share_title">Share with Friends</string>
+    <string name="share">SHARE</string>
+    <string name="day">Day</string>
+    <string name="activity_title">Upload File And Share Across Multiple Apps.</string>
+
+    <string name="camera_button_text">Upload</string>
+    <string name="sign_in_prompt">Sign In to begin</string>
+    <string name="take_photo_prompt">Upload a Photo</string>
+    <string name="sign_in_anonymously">Sign In</string>
+    <string name="rationale_storage">This app writes files into your storage.</string>
+    <string name="label_link">Link to Uploaded File</string>
+    <string name="label_download">Download File</string>
+
+
+    <string name="error_thumbnail_view">There was an error initializing the YouTubeThumbnailView (%1$s)</string>
+    <string name="error_player">There was an error initializing the YouTubePlayer (%1$s)</string>
+
+
+    <string name="banner1_ad_unit_id">ca-app-pub-6761344652143766/7126486739</string>
+    <string name="banner2_ad_unit_id">ca-app-pub-6761344652143766/4873611530</string>
+    <string name="banner3_ad_unit_id">ca-app-pub-6761344652143766/7486413538</string>
+    <string name="banner4_ad_unit_id">ca-app-pub-6761344652143766/1439879936</string>
+    <string name="banner5_ad_unit_id">ca-app-pub-6761344652143766/1300279131</string>
+
+
+</resources>

@@ -1,0 +1,153 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white"
+    android:paddingTop="@dimen/dp_twenty">
+
+    <ImageView
+        android:id="@+id/backdrop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fitsSystemWindows="true"
+        android:background="@drawable/schoolbox"
+        android:layout_gravity="center_horizontal"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="vertical"
+        android:paddingLeft="@dimen/dp_twenty"
+        android:paddingRight="@dimen/dp_twenty"
+        android:paddingTop="@dimen/dp_twenty">
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingTop="@dimen/card_margin">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/input_name"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size_fab"
+                android:singleLine="true"
+                android:layout_marginBottom="10dp"
+                android:inputType="textCapWords"
+                android:hint="@string/hint_name" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_institution"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingTop="@dimen/card_margin">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/input_institution"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size_fab"
+                android:singleLine="true"
+                android:layout_marginBottom="10dp"
+                android:inputType="textCapWords"
+                android:hint="@string/hint_institution" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_email"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingTop="@dimen/card_margin">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/input_email"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size_fab"
+                android:singleLine="true"
+                android:layout_marginBottom="10dp"
+                android:inputType="textEmailAddress"
+                android:hint="@string/hint_email" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_password"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingTop="@dimen/card_margin">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/input_password"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size_fab"
+                android:singleLine="true"
+                android:layout_marginBottom="10dp"
+                android:inputType="textPassword"
+                android:hint="@string/hint_password" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:id="@+id/input_layout_location"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:paddingTop="@dimen/card_margin">
+
+            <android.support.design.widget.TextInputEditText
+                android:id="@+id/input_location"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/size_fab"
+                android:singleLine="true"
+                android:layout_marginBottom="10dp"
+                android:inputType="textCapWords"
+                android:hint="@string/hint_location" />
+        </android.support.design.widget.TextInputLayout>
+
+        <!-- Register Button -->
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/commitRegister"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_marginBottom="@dimen/card_margin"
+            android:background="@color/topeka_primary"
+            android:text="@string/btn_register"
+            android:textColor="@color/white"
+            android:textSize="@dimen/card_margin"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            style="@style/Widget.AppCompat.Button"
+            android:clickable="true"/>
+
+        <!-- Link to Login Screen -->
+
+        <android.support.v7.widget.AppCompatButton
+            android:id="@+id/btnLinkToLoginScreen"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:layout_marginTop="@dimen/card_margin"
+            android:layout_marginBottom="@dimen/card_margin"
+            android:background="#90CAF9"
+            android:text="@string/btn_login"
+            android:textColor="@color/white"
+            android:textSize="@dimen/card_margin"
+            android:textStyle="bold"
+            android:layout_gravity="center"
+            style="@style/Widget.AppCompat.Button"
+            android:clickable="true"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+</ScrollView>

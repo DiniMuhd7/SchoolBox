@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <CheckBoxPreference
+        android:key="newAppUpdate"
+        android:title="Software Update"
+        android:summary="Enable to get an instant notification about a new software update."
+        android:defaultValue="true" />
+
+    <ListPreference
+        android:title="Network Mode"
+        android:summary="Choose a network connection type"
+        android:key="downloadType"
+        android:defaultValue="3"
+        android:entries="@array/listArray"
+        android:entryValues="@array/listValues" />
+
+    <PreferenceCategory android:title="PREFERENCE" >
+
+        <CheckBoxPreference
+            android:defaultValue="true"
+            android:key="prefSendReport"
+            android:summary="Helps to fix bugs"
+            android:title="Send Crash Report" >
+        </CheckBoxPreference>
+
+        <ListPreference
+            android:key="prefSyncFrequency"
+            android:entries="@array/syncFrequency"
+            android:summary="Set the sync frequency"
+            android:entryValues="@array/syncFrequencyValues"
+            android:defaultValue="7"
+            android:title="Sync Frequency" />
+
+        <ListPreference
+            android:key="prefThemeColor"
+            android:entries="@array/setThemeColor"
+            android:summary="Choose a custom theme template"
+            android:entryValues="@array/setThemeColorValues"
+            android:defaultValue="0"
+            android:title="Custom Theme" />
+
+        <CheckBoxPreference
+            android:key="prefSound"
+            android:defaultValue="false"
+            android:summary="Enable to apply background sound"
+            android:title="Sound" >
+        </CheckBoxPreference>
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="LIBRARY" >
+
+        <PreferenceScreen
+            android:key="openSourceLib"
+            android:entries="@array/syncFrequency"
+            android:summary="Apache License 2.0"
+            android:entryValues="@array/syncFrequencyValues"
+            android:title="Android Support" />
+
+    </PreferenceCategory>
+
+    <PreferenceCategory android:title="SIGNATURE" >
+
+        <PreferenceScreen
+            android:key="dev"
+            android:entries="@array/syncFrequency"
+            android:summary="Deen Adam"
+            android:entryValues="@array/syncFrequencyValues"
+            android:title="Developer" />
+
+            <PreferenceScreen
+                android:key="about"
+                android:entries="@array/syncFrequency"
+                android:summary="@string/signature"
+                android:entryValues="@array/syncFrequencyValues"
+                android:title="Version" />
+
+    </PreferenceCategory>
+
+
+</PreferenceScreen>

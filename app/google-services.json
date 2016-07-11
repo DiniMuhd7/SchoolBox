@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "805574341396",
+    "firebase_url": "https://project-8041871913534887610.firebaseio.com",
+    "project_id": "project-8041871913534887610",
+    "storage_bucket": "project-8041871913534887610.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:805574341396:android:d34a4abffbceddff",
+        "android_client_info": {
+          "package_name": "com.deenysoft.schoolbox"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "805574341396-r2tmllnmgo3co3aum5uuq077a4bgcqic.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdXYGrB_Yq7lQhVihCUQrFUZWwjMrfPHE"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
