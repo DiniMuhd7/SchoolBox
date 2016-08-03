@@ -20,9 +20,9 @@ android {
     signingConfigs {
         config {
             keyAlias 'deenysoft'
-            keyPassword 'KALAkuta2005'
+            keyPassword ''
             storeFile file('/Users/shamsadam/GithubPush/SchoolBox/schoolbox.keystore')
-            storePassword 'KALAkuta2005'
+            storePassword ''
         }
     }
     buildToolsVersion "23.0.3"
